@@ -47,4 +47,10 @@ public class PersonaTest {
         assertEquals("Ana Vega", this.persona.nombreCompleto());
     }
 
+    @Test
+    public void testMismoApellido() {
+    	Persona pers = new Persona("AnA", "vEga");
+        assertTrue(this.persona.mismoApellido(pers));
+    }
+
 }
