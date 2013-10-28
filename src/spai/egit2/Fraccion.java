@@ -67,4 +67,19 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
 
+	public boolean esPropia() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean esImpropia() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return null;
+	}
+	
 }
