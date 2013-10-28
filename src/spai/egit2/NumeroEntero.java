@@ -19,16 +19,16 @@ public class NumeroEntero {
         this.valor = valor;
     }
 
-    public void incrementar() {
-        this.setValor(this.valor + 1);
+    public void incrementar(int incremento) {
+        this.setValor(this.valor + incremento);
     }
 
     public void doblar() {
         this.setValor(this.valor * 2);
     }
 
-    public void decrementar() {
-        this.valor--;
+    public void decrementar(int decremento) {
+    	this.setValor(this.valor - decremento);
     }
 
 }
