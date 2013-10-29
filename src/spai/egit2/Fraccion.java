@@ -68,8 +68,7 @@ public class Fraccion {
     }
 
 	public boolean esPropia() {
-		// TODO Auto-generated method stub
-		return false;
+		return numerador < denominador;
 	}
 
 	public boolean esImpropia() {
