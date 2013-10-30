@@ -78,7 +78,7 @@ public class Fraccion {
 
 	@Override
 	public String toString() {
-		return null;
+		return this.numerador + "/" + this.denominador;
 	}
 	
 }
