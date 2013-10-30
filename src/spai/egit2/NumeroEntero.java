@@ -32,12 +32,10 @@ public class NumeroEntero {
 	}
 
 	public int sumar(int valor1, int valor2) {
-		// TODO Auto-generated method stub
-		return -1;
+		return valor1 + valor2;
 	}
 
 	public int multiplicar(int valor1, int valor2) {
-		// TODO Auto-generated method stub
-		return -1;
+		return valor1 * valor2;
 	}
 }

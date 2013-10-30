@@ -54,7 +54,7 @@ public class NumeroEnteroTest {
 	}
 
 	@Test
-	public void testMultiplcicar() {
+	public void testMultiplicar() {
 		assertEquals(6, numero.multiplicar(2, 3));
 	}
 
