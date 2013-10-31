@@ -2,7 +2,6 @@ package spai.egit2;
 
 public class Fraccion {
 	private int numerador;
-
 	private int denominador;
 
 	public Fraccion(int numerador, int denominador) {
